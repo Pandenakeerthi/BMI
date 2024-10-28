@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('33.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 140px;
+
+}
+
+.container {
+    background: #dcd1d1;
+    padding: 80px;
+    border-radius:20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 25px;
+    background: #28a745;
+    color: hwb(0 10% 90% / 0.926);
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: hsla(133, 61%, 33%, 0);
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    color: hwb(120 28% 71%);
+    font-size: 20px;
+    
+}
